@@ -14,4 +14,6 @@ __pycache__/
 # macOS system files
 .DS_Store
 
-Dataset/
+# Large dataset file
+Dataset/creditcard.csv
+creditcard.csv

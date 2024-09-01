@@ -1,1 +1,44 @@
 Basic of ml models 
+ 
+ 01-# Credit Card Fraud Detection
+
+   This project implements various machine learning algorithms to detect credit card fraud using the "credit_card_fraud" dataset from Hugging Face.
+
+   ## Setup
+
+   1. Create a virtual environment:
+      ```
+      python -m venv myenv
+      ```
+
+   2. Activate the virtual environment:
+      - On Windows: `myenv\Scripts\activate`
+      - On macOS and Linux: `source myenv/bin/activate`
+
+   3. Install required packages:
+      ```
+      pip install scikit-learn pandas numpy imbalanced-learn datasets
+      ```
+
+   ## Running the models
+
+   To run each model, use the following commands:
+
+   - Logistic Regression: `python logistic_regression.py`
+   - K-Nearest Neighbors: `python k_nearest_neighbors.py`
+   - Decision Tree: `python decision_tree.py`
+   - Random Forest: `python random_forest.py`
+   - Support Vector Machine: `python support_vector_machine.py`
+   - Naive Bayes: `python naive_bayes.py`
+
+   Each script will output the model's accuracy, AUC-ROC score, and a classification report.
+
+   ## Files
+
+   - `data_preparation.py`: Handles data loading, preprocessing, and resampling
+   - `logistic_regression.py`: Implements Logistic Regression
+   - `k_nearest_neighbors.py`: Implements K-Nearest Neighbors
+   - `decision_tree.py`: Implements Decision Tree
+   - `random_forest.py`: Implements Random Forest
+   - `support_vector_machine.py`: Implements Support Vector Machine
+   - `naive_bayes.py`: Implements Naive Bayes
